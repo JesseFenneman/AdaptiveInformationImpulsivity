@@ -8,6 +8,14 @@ import javafx.scene.layout.AnchorPane;
 import window.FrameController;
 import window.FrameController.TabPane;
 
+/**
+ * An abstract class for all Tabs in the frame.
+ * Each tab has at least the functions update (which is called by the FrameController in case
+ * another tab has changed something that requires other tabs to be updated). Upon creation
+ * the setNodes() should be called to set all action handlers. This function is called by 
+ * the FrameController upon creation of a tab.
+ *
+ */
 public abstract class AbstractTab implements FrameController.TabPane{
 
 			protected final 		FrameController					frame;

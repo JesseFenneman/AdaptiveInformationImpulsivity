@@ -1,3 +1,8 @@
+# Wrapper for the JAVA project
+createHeatPlotFromFile = function ( inputFile,   ...) {
+  df=read.csv(inputFile, sep = ";", header = TRUE)
+  createHeatPlot(dataframe=df, ...)
+}
 
 #------- createHeatPlot function -----------------------------------------------------------------------------------------------------------
 createHeatPlot = function(

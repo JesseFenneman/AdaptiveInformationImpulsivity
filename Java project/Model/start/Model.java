@@ -42,6 +42,13 @@ import staticManagers.OutputFileManager;
 import staticManagers.OutputShadow;
 import window.FrameController;
 
+/**
+ * The Model of the program deals with all actual computations. It contains all the Builder objects that are used when
+ * the user specifies it inputs, it deals with the creating/scheduling/computation of all agent threads, and it stores
+ * all data. In a very meaningful way, the Model IS the program. The only things that the model does not do is communication
+ * to the user. All communication (i.e., the graphical user interface) is handled by a FrameController object, which is 
+ * created in the main() function.
+ */
 public class Model extends Application{
 	
 	@SuppressWarnings("serial")

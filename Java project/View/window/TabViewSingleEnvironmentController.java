@@ -449,7 +449,7 @@ public class TabViewSingleEnvironmentController extends AbstractTab{
 	private void setTableView() {
 		DoubleBinding columnWidthFullySpecified = tableviewOutputShadows.widthProperty().subtract(2).divide(7);
 		// Create and add the Resource quality super-column to the table view.
-		TableColumn<OutputShadow, TableColumn<OutputShadow, Object>> resourceValueColumn = new TableColumn<OutputShadow, TableColumn<OutputShadow, Object>>("Resource value");
+		TableColumn<OutputShadow, TableColumn<OutputShadow, Object>> resourceValueColumn = new TableColumn<OutputShadow, TableColumn<OutputShadow, Object>>("Resource quality");
 
 		resourceValueColumn.getColumns().add(DecimalNumberMatrixTableView.createDecimalNumberColumn("Mean", "resourceValueMean", columnWidthFullySpecified, significantDigits, frame, tableviewOutputShadows));
 		resourceValueColumn.getColumns().add(DecimalNumberMatrixTableView.createDecimalNumberColumn("SD", "resourceValueSD", columnWidthFullySpecified,significantDigits, frame, tableviewOutputShadows ));

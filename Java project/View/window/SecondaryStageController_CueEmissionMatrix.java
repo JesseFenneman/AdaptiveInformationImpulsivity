@@ -48,7 +48,7 @@ public class SecondaryStageController_CueEmissionMatrix extends AbstractSecondar
 
 	public SecondaryStageController_CueEmissionMatrix(FrameController fc)
 	{
-		super(fc, "secondaryStage_CueEmissions.fxml", "Define p(cue | resource value) ...", 500,500, true);
+		super(fc, "secondaryStage_CueEmissions.fxml", "Define p(cue | resource quality) ...", 500,500, true);
 		setNodes();
 		update();
 	}

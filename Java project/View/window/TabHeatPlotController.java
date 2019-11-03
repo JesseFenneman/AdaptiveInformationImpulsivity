@@ -45,23 +45,25 @@ public class TabHeatPlotController extends AbstractTab{
 	* and output variables (that what the user 'gets out' of the model, e.g., the optimal number cues to sample) */
 	public enum Variable {
 
-		resourceValueMean	("Resource value mean", 					"resourceValueMean",			"Mean resource values", 					"Mean"), 
-		resourceValueSD		("Resource value std. dev.", 				"resourceValueSD",				"Standard deviation of resource values", 		"SD"), 
-		extrinsicEventMean	("Extrinsic event mean", 					"extrinsicEventMean",			"Mean extrinsic event values",			"Mean"),
-		extrinsicEvent		("Extrinsic event std. dev.", 				"extrinsicEventSD",				"Standard deviation of extrinsic event value", "SD"),
+		resourceValueMean	("Mean resource quality", 					"resourceValueMean",			"Mean resource values", 					"Mean"), 
+		resourceValueSD		("Std.Dev. resource quality", 				"resourceValueSD",				"Standard deviation of resource values", 		"SD"), 
+		extrinsicEventMean	("Mean extrinsic event", 					"extrinsicEventMean",			"Mean extrinsic event values",			"Mean"),
+		extrinsicEvent		("Std.Dev. extrinsic event", 				"extrinsicEventSD",				"Standard deviation of extrinsic event value", "SD"),
 		interruptionRate	("Interruption rate", 						"interruptionRate",				"Interruption rate", 						"Rate"),
-		budgetStart			("Budget starting encounter" , 				"budget", 						"Budget when starting encounter",			"Budget"),
+		budgetStart			("Starting somatic state" , 				"budget", 						"Budget when starting encounter",			"Budget"),
 		
 		
-		cuesSampled			("Optimal number of cues to sample",			"optimalNumberOfCuesToSample", 	"Optimal number of cues to sample",			"Cues sampled"),
-		expectedFitness		("Expected terminal fitness",					"expectedFitness",				"Expected terminal fitness",				"Fitness"),
-		varianceFitness		("Std. dev. terminal fitness",					"sdFitness",					"Standard deviation terminal fitness",		"SD"),
-		proportionEating	("Proportion population eating",				"proportionEating",  			"Proportion of population eating",			"Proportion"),
-		proportionDiscarding("Proportion population discarding",			"proportionDiscarding",			"Proportion of population discarding",		"Proportion");
+		cuesSampled			("Optimal number of cues to sample",			"expectedCuesSampled", 	"Optimal number of cues to sample",			"Cues sampled"),
+		proportionEating	("Proportion population accepting",				"totalProportionAccepting",  			"Proportion of population accepting",			"Proportion"),
+		proportionDiscarding("Proportion population rejecing",		    	"totalProportionDiscarding",			"Proportion of population rejecting",		"Proportion"),
+		negativeCueSurplusRejecting("Negative cue surplus when rejecting",		    	"cueDominanceDiscarding_Negative_cue",			"Negative cue surplus rejecting",		"Surplus"),
+		negativeCueSurplusAccepting("Negative cue surplus when accepting",		    	"cueDominanceEating_Negative_cue",				"Negative cue surplus accepting",		"Surplus"),
+		positiveCueSurplusRejecting("Positive cue surplus when rejecting",		    	"cueDominanceDiscarding_Positive_cue",			"Positive cue surplus rejecting",		"Surplus"),
+		positiveCueSurplusAccepting("Positive cue surplus when accepting",		    	"cueDominanceEating_Positive_cue",				"Positive cue surplus accepting",		"Surplus");
 		
 		// MARKER: if you want to add new variables to plot, make sure they are added below as well as above
 		public static final Variable[] inputVariables  = new Variable[] {resourceValueMean, resourceValueSD, extrinsicEventMean, extrinsicEvent, interruptionRate, budgetStart};
-		public static final Variable[] outputVariables = new Variable[] {cuesSampled, expectedFitness, varianceFitness, proportionEating, proportionDiscarding};
+		public static final Variable[] outputVariables = new Variable[] {cuesSampled, proportionEating, proportionDiscarding, negativeCueSurplusRejecting, negativeCueSurplusAccepting, positiveCueSurplusRejecting, positiveCueSurplusAccepting};
 		
 		private final String nameToDisplay, variableNameToUseInR, longNameInPlot, shortNameInPlot;
 		private Variable(String nameToDisplay, String variableNameToUseInR, String longNameInPlot, String shortNameInPlot) {
@@ -80,7 +82,6 @@ public class TabHeatPlotController extends AbstractTab{
 	/** A role is a function in the plot that a variable has. For instance, the variable "cues sampled" can be used as the y-axis, as the color or used to make contour lines */
 	public enum Role {
 		color				("Color (dependent variable in individual plot)","color",				"color",				false), 
-		contour				("Contour (dependent variable in individual plot)","contour",			"contour",				true), 
 		xAxis				("X axis (individual plot)",					"X axis",				"xAxis",				false), 
 		yAxis				("Y axis (individual plot)", 					"Y axis",				"yAxis",				false), 
 		row					("Row (multiple plots, requires levels)", 		"row",					"row",					true),
@@ -458,8 +459,7 @@ public class TabHeatPlotController extends AbstractTab{
   		 *							list(var=list(varName = "extrinsicEventSD", longName = "Standard deviation of extrinsic event value", shortName = "SD"), role = "column",levels =c(2.0000000000,6.0000000000,10.0000000000)), 
   		 *							list(var=list(varName = "optimalNumberOfCuesToSample", longName = "Optimal number of cues to sample", shortName = "Cues sampled"), role = "color",levels =c()),
 		 *  						
-		 * maximumCues:			a numeric value indicating the maximum cues that will be displayed when plotting. All values higher than this value are winsorized. Use negative numbers to indicate no maximum.
-		 * useColor				a boolean indicating whether color can be used when plotting. Note that R uses ("TRUE","FALSE"), rather than Java's ("true","false")
+		 * maxColor:			a numeric value indicating the maximum cues that will be displayed when plotting. All values higher than this value are winsorized. Use negative numbers to indicate no maximum.
 		 * width				a double that determines the width of the total plot (in cm)
 		 * height				a double that determines the height of the total plot (in cm)
 		 * DPI					a double that determines the Dots Per Inch 
@@ -496,12 +496,11 @@ public class TabHeatPlotController extends AbstractTab{
 		includedSB.append(")");
 		
 		// Create the total R command:
-		String RCommand = "createHeatPlot("+
+		String RCommand = "createHeatPlotFromFile("+
 				"inputFile = " + inputFile + ", "+
 				"outputFile = " + outputFileString+ ", "+
 				"dimensions = " + includedSB + ", " +
-				"maxCues = " + maximumCues + ", " + 
-				"useColor = " + useColor + ", " +
+				"maxColor = " + maximumCues + ", " + 
 				"width = " + width + ", "+
 				"height = " + height + ", " + 
 				"DPI = " + DPI +

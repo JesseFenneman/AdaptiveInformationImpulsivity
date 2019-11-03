@@ -151,7 +151,7 @@
                                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                 </rowConstraints>
                                  <children>
-                                    <Label stylesheets="@../CSSLayout/normalLabel.css" text="Mean resource value:" wrapText="true">
+                                    <Label stylesheets="@../CSSLayout/normalLabel.css" text="Mean resource quality:" wrapText="true">
                                        <font>
                                           <Font name="Cambria" size="20.0" />
                                        </font>
@@ -167,7 +167,7 @@
                                           <Insets left="20.0" />
                                        </GridPane.margin>
                                     </Label>
-                                    <Label stylesheets="@../CSSLayout/normalLabel.css" text="Standard deviation resource value:" wrapText="true" GridPane.columnIndex="3">
+                                    <Label stylesheets="@../CSSLayout/normalLabel.css" text="Standard deviation resource quality:" wrapText="true" GridPane.columnIndex="3">
                                        <font>
                                           <Font name="Cambria" size="20.0" />
                                        </font>

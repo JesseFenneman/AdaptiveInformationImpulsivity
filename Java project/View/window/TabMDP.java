@@ -248,13 +248,13 @@ public class TabMDP extends AbstractTab{
 		cueEmissionsPlotXAxis.setLowerBound(-frame.mdpBuilder.VALUE_MAXIMUM);
 		cueEmissionsPlotXAxis.setUpperBound(frame.mdpBuilder.VALUE_MAXIMUM);
 		cueEmissionsPlotXAxis.setTickUnit(frame.mdpBuilder.VALUE_MAXIMUM/4);
-		cueEmissionsPlotXAxis.setLabel("Resource value");
+		cueEmissionsPlotXAxis.setLabel("Resource quality");
 
 		cueEmissionsPlotYAxis.setAutoRanging(false);
 		cueEmissionsPlotYAxis.setLowerBound(0);
 		cueEmissionsPlotYAxis.setUpperBound(1);
 		cueEmissionsPlotYAxis.setTickUnit(0.25);
-		cueEmissionsPlotYAxis.setLabel("p( cue | resource value)");
+		cueEmissionsPlotYAxis.setLabel("p( cue | resource quality)");
 		cueEmissionsPlotYAxis.lookup(".axis-label")
 		.setStyle("-fx-label-padding: -50 0 0 0;");
 
@@ -367,7 +367,7 @@ public class TabMDP extends AbstractTab{
 		fitnessPlotXAxis.setLowerBound(0);
 		fitnessPlotXAxis.setUpperBound(frame.mdpBuilder.BUDGET_MAXIMUM);
 		fitnessPlotXAxis.setTickUnit(frame.mdpBuilder.BUDGET_MAXIMUM/4);
-		fitnessPlotXAxis.setLabel("Budget at final time step");
+		fitnessPlotXAxis.setLabel("Somatic state at final time step");
 
 
 		fitnessPlotYAxis.setAutoRanging(true);

@@ -501,7 +501,7 @@ public class TabRetrainAgentsController extends AbstractTab{
 		
 		
 		// Create and add the Resource quality super-column to the table view.
-		TableColumn<OutputShadowSelected, TableColumn<OutputShadow, Object>> resourceValueColumn = new TableColumn<OutputShadowSelected, TableColumn<OutputShadow, Object>>("Resource value");
+		TableColumn<OutputShadowSelected, TableColumn<OutputShadow, Object>> resourceValueColumn = new TableColumn<OutputShadowSelected, TableColumn<OutputShadow, Object>>("Resource quality");
 
 		resourceValueColumn.getColumns().add(DecimalNumberMatrixTableView.createDecimalNumberColumn("Mean", "resourceValueMean", columnWidth, significantDigits, frame, tableviewOutputShadows));
 		resourceValueColumn.getColumns().add(DecimalNumberMatrixTableView.createDecimalNumberColumn("SD", "resourceValueSD", columnWidth,significantDigits, frame, tableviewOutputShadows ));

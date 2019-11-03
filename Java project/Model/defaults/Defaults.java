@@ -244,14 +244,14 @@ public class Defaults {
 	private static Defaults mainDefaults() { 
 		try {
 			DefaultFactory df = new DefaultFactory()
-					.setMaximumBudget(10)
-					.setValueMaximum(5)
-					.setValueStep(1)
-					.setCostOfSampling(0.05)
+					.setMaximumBudget(100)
+					.setValueMaximum(20)
+					.setValueStep(0.2)
+					.setCostOfSampling(0.2)
 					.setCompoundInterruption(false)
-					.setMaximumCues(5)
+					.setMaximumCues(10)
 					.setFitnessFunction("x")
-					.setDiscountRate(0.75)
+					.setDiscountRate(0.95)
 					.setCueEmissionMatrix(null)
 					/*		new DecimalNumberMatrix( 
 						//						Resource value		p(Cue 1| value) 		p(Cue 2| value)
@@ -279,7 +279,7 @@ public class Defaults {
 							))*/
 
 					.setCueEmissionType(CueEmissionType.Normal)
-					.setCueEmissionArgument(5)
+					.setCueEmissionArgument(15)
 					.setCueLabels("Negative cue", "Positive cue")
 					// NOTE: this creates an EnvironmentBuilderFull that does not have initialized distributions. During runtime
 					// you first need to call setMDPBuilder()!
@@ -313,7 +313,7 @@ public class Defaults {
 					.setUseStoppingCriteriaIterations(true)
 					.setStoppingCriteriaMaximumTime(-1)
 					.setStoppingCriteriaMaximumTimeUnit(TimeUnit.HOURS)
-					.setStoppingCriteriaConvergenceEpsilon(new DecimalNumber(0.05))
+					.setStoppingCriteriaConvergenceEpsilon(new DecimalNumber(0.001))
 					.setStoppingCriteriaMaximumIterations(100)
 					.setOptimizer(Optimizer.Lossy)
 					.setIndifferencePoint(new DecimalNumber(0.0000000001))

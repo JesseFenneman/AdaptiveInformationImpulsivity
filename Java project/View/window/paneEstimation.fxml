@@ -17,9 +17,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="rootPane" minHeight="0.0" minWidth="0.0" prefHeight="550.0" prefWidth="600.0" style="-fx-background-color: rgba(0,0,0,0);" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="rootPane" minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="600.0" style="-fx-background-color: rgba(0,0,0,0);" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <VBox cacheShape="false" depthTest="ENABLE" nodeOrientation="LEFT_TO_RIGHT" prefHeight="1204.0" prefWidth="598.0" spacing="20.0" style="-fx-background-color: rgba(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <VBox cacheShape="false" depthTest="ENABLE" nodeOrientation="LEFT_TO_RIGHT" prefHeight="1204.0" prefWidth="598.0" spacing="20.0" style="-fx-background-color: rgba(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
          <padding>
             <Insets left="5.0" right="5.0" />
          </padding>
@@ -211,7 +211,7 @@
                                           </Tooltip>
                                        </tooltip>
                                     </CheckBox>
-                                    <Label stylesheets="@../CSSLayout/normalLabel.css" text="Indifference point:" GridPane.columnSpan="2" GridPane.rowIndex="6">
+                                    <Label stylesheets="@../CSSLayout/normalLabel.css" text="Indifference point:" visible="false" GridPane.columnSpan="2" GridPane.rowIndex="6">
                                        <font>
                                           <Font name="Cambria" size="20.0" />
                                        </font>
@@ -219,7 +219,7 @@
                                           <Insets left="20.0" />
                                        </GridPane.margin>
                                     </Label>
-                                    <TextField fx:id="textFieldIndifferencePoint" promptText="Indifference point" stylesheets="@../CSSLayout/normalTextField.css" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                                    <TextField fx:id="textFieldIndifferencePoint" promptText="Indifference point" stylesheets="@../CSSLayout/normalTextField.css" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="6">
                                        <tooltip>
                                           <Tooltip autoHide="true" prefWidth="300.0" text="For each possible action the agent computes an expected (fitness or value) outcome.  If there is no difference between the outcomes of action, the difference in expected outcomes is 0 - in the limit. However, because the run time is limited, these differences are not always recognized as the same value (e.g., 0.0000000001 != 0.000000000011).  The indifference point is the smallest difference in outcomes between actions that the agent is still responsive to (if the difference smaller, the two values are treated as equal)." wrapText="true">
                                              <font>
@@ -292,7 +292,7 @@
                                     <Insets left="20.0" />
                                  </GridPane.margin>
                               </Label>
-                              <Label stylesheets="@../CSSLayout/normalLabel.css" text="Number of threads:" wrapText="true" GridPane.rowIndex="1">
+                              <Label stylesheets="@../CSSLayout/normalLabel.css" text="Number of concurrent threads:" wrapText="true" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="Cambria" size="20.0" />
                                  </font>

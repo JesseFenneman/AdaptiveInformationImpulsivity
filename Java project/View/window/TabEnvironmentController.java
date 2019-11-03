@@ -96,7 +96,7 @@ public class TabEnvironmentController extends AbstractTab {
 		/////////////////////////////////////////////////////////////
 		DoubleBinding columnWidthFullySpecified = tableViewFullySpecified.widthProperty().subtract(2).divide(7);
 		// Create and add the Resource quality super-column to the table view.
-		TableColumn<EnvironmentBuilderFull, TableColumn<EnvironmentBuilderFull, Object>> resourceValueColumn = new TableColumn<EnvironmentBuilderFull, TableColumn<EnvironmentBuilderFull, Object>>("Resource value");
+		TableColumn<EnvironmentBuilderFull, TableColumn<EnvironmentBuilderFull, Object>> resourceValueColumn = new TableColumn<EnvironmentBuilderFull, TableColumn<EnvironmentBuilderFull, Object>>("Resource quality");
 
 		resourceValueColumn.getColumns().add(DecimalNumberMatrixTableView.createDecimalNumberColumn("Mean", "resourceValueMean", columnWidthFullySpecified, significantDigits, frame, frame.tabEnvironment));
 		resourceValueColumn.getColumns().add(DecimalNumberMatrixTableView.createDecimalNumberColumn("SD", "resourceValueSD", columnWidthFullySpecified,significantDigits, frame, frame.tabEnvironment ));
@@ -194,7 +194,7 @@ public class TabEnvironmentController extends AbstractTab {
 		////////////////////////////////////////////////////////////
 		DoubleBinding columnWidthLazySpecified = tableViewLazySpecified.widthProperty().subtract(2).divide(7);
 		// Create and add the Resource quality super-column to the table view.
-		TableColumn<EnvironmentBuilderLazy, TableColumn<EnvironmentBuilderLazy, Object>> resourceValueColumn = new TableColumn<EnvironmentBuilderLazy, TableColumn<EnvironmentBuilderLazy, Object>>("Resource value");
+		TableColumn<EnvironmentBuilderLazy, TableColumn<EnvironmentBuilderLazy, Object>> resourceValueColumn = new TableColumn<EnvironmentBuilderLazy, TableColumn<EnvironmentBuilderLazy, Object>>("Resource quality");
 
 		resourceValueColumn.getColumns().add(DecimalNumberMatrixTableView.createDecimalNumberColumn("Mean", "resourceValueMean", columnWidthLazySpecified, significantDigits));
 		resourceValueColumn.getColumns().add(DecimalNumberMatrixTableView.createDecimalNumberColumn("SD", "resourceValueSD", columnWidthLazySpecified,significantDigits));

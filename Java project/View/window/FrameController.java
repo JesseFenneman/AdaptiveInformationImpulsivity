@@ -36,6 +36,15 @@ import staticManagers.ObserverManager.ObserverStage;
 import window.interfacesAndAbstractions.AbstractTab;
 import window.interfacesAndAbstractions.NotificationManager;
 
+
+/**
+ * The FrameController controls all separate tabs, all communication between tabs, and all communication between tabs and the Model.
+ * The frame is the left-hand side menu, the selection menu at the top, and the content pane in the center (where all the buttons,
+ * text, and other good stuff is). The content pane differs for different tabs. The control over these tabs is relegated to
+ * AbstractTab objects. 
+ * @author jesse
+ *
+ */
 public class FrameController implements ObserverStage, EventHandler<ActionEvent>, NotificationManager
 {
 			public final Model							model;
@@ -114,7 +123,7 @@ public class FrameController implements ObserverStage, EventHandler<ActionEvent>
 
 		scene = new Scene(root);
 		stage = new Stage();
-		stage.setTitle("Information preference model version 0.0");
+		stage.setTitle("Adaptive information impulsivity version 1.0");
 		stage.setScene(scene);
 
 

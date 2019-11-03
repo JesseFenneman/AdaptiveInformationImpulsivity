@@ -11,6 +11,7 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1516461594574"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_XFXvQf31EeeJk-X_yoNq2Q" selectedElement="_XFXvQv31EeeJk-X_yoNq2Q" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_XFXvQv31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_XdfUUP31EeeJk-X_yoNq2Q">
         <children xsi:type="advanced:Perspective" xmi:id="_XdfUUP31EeeJk-X_yoNq2Q" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_XdfUUf31EeeJk-X_yoNq2Q" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -157,7 +158,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_XdVjUP31EeeJk-X_yoNq2Q" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.jdt.ui"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1516461594574&quot;>&#xD;&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xD;&#xA;&lt;xmlDefinedFilters>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/xmlDefinedFilters>&#xD;&#xA;&lt;/customFilters>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1516461594574&quot;>&#xD;&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xD;&#xA;&lt;xmlDefinedFilters>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/xmlDefinedFilters>&#xD;&#xA;&lt;/customFilters>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
       <tags>active</tags>
@@ -289,7 +290,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XGo6kP31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XGyrkP31EeeJk-X_yoNq2Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_W02nDf31EeeJk-X_yoNq2Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sJxzEP4sEemEKYkuVI9CyQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_W02nDf31EeeJk-X_yoNq2Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XGo6kf31EeeJk-X_yoNq2Q" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -310,7 +311,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XGphoP31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XG0gwP31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_W01ZIv31EeeJk-X_yoNq2Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sJ1dcP4sEemEKYkuVI9CyQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_W01ZIv31EeeJk-X_yoNq2Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XGphof31EeeJk-X_yoNq2Q" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -377,6 +378,9 @@
     <bindings xmi:id="_W1dEAv31EeeJk-X_yoNq2Q" keySequence="CTRL+INSERT" command="_W0zj4_31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1drDP31EeeJk-X_yoNq2Q" keySequence="ALT+SHIFT+F3" command="_W02nGP31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1fgO_31EeeJk-X_yoNq2Q" keySequence="CTRL+F10" command="_W0v5jP31EeeJk-X_yoNq2Q"/>
+    <bindings xmi:id="_XiSxsv4sEemvLrd4HyK7TA" keySequence="ALT+CTRL+SHIFT+F9" command="_XhW9kf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiUm5P4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+F1" command="_XhWWlP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiVN8P4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+F2" command="_XhW9s_4sEemvLrd4HyK7TA"/>
   </bindingTables>
   <bindingTables xmi:id="_W1Q2sP31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.textEditorScope" bindingContext="_W064cf31EeeJk-X_yoNq2Q">
     <bindings xmi:id="_W1UhEP31EeeJk-X_yoNq2Q" keySequence="END" command="_W02nM_31EeeJk-X_yoNq2Q"/>
@@ -393,7 +397,6 @@
     <bindings xmi:id="_W1W9V_31EeeJk-X_yoNq2Q" keySequence="CTRL+-" command="_W0y8qP31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1W9WP31EeeJk-X_yoNq2Q" keySequence="CTRL+SHIFT+CR" command="_W02nFv31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1W9Zf31EeeJk-X_yoNq2Q" keySequence="CTRL+J" command="_W0wgZv31EeeJk-X_yoNq2Q"/>
-    <bindings xmi:id="_W1XkYP31EeeJk-X_yoNq2Q" keySequence="CTRL+K" command="_W01Y7f31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1XkYv31EeeJk-X_yoNq2Q" keySequence="CTRL+L" command="_W02AJf31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1YLdv31EeeJk-X_yoNq2Q" keySequence="CTRL+D" command="_W0wgcf31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1YLff31EeeJk-X_yoNq2Q" keySequence="CTRL+SHIFT+X" command="_W0zj6_31EeeJk-X_yoNq2Q"/>
@@ -404,7 +407,6 @@
     <bindings xmi:id="_W1ZZl_31EeeJk-X_yoNq2Q" keySequence="ALT+SHIFT+A" command="_W00K0v31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1aArv31EeeJk-X_yoNq2Q" keySequence="ALT+SHIFT+Y" command="_W0urM_31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1aAsP31EeeJk-X_yoNq2Q" keySequence="CTRL+SHIFT+J" command="_W0xHmv31EeeJk-X_yoNq2Q"/>
-    <bindings xmi:id="_W1aAs_31EeeJk-X_yoNq2Q" keySequence="CTRL+SHIFT+K" command="_W0wgkv31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1aAtv31EeeJk-X_yoNq2Q" keySequence="SHIFT+CR" command="_W02nVv31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1bO0P31EeeJk-X_yoNq2Q" keySequence="ALT+CTRL+J" command="_W0xuiv31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1cc5_31EeeJk-X_yoNq2Q" keySequence="CTRL+DEL" command="_W0yVlf31EeeJk-X_yoNq2Q"/>
@@ -650,6 +652,14 @@
     <bindings xmi:id="_W1fgOP31EeeJk-X_yoNq2Q" keySequence="CTRL+F9" command="_W0xHhf31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1fgPv31EeeJk-X_yoNq2Q" keySequence="CTRL+F11" command="_W02nNv31EeeJk-X_yoNq2Q"/>
     <bindings xmi:id="_W1fgP_31EeeJk-X_yoNq2Q" keySequence="CTRL+F12" command="_W0xHcv31EeeJk-X_yoNq2Q"/>
+    <bindings xmi:id="_XiJAsf4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+X R" command="_XhWWhP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiK14f4sEemvLrd4HyK7TA" keySequence="CTRL+K" command="_W01Y7f31EeeJk-X_yoNq2Q"/>
+    <bindings xmi:id="_XiPHUf4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+K" command="_W0wgkv31EeeJk-X_yoNq2Q"/>
+    <bindings xmi:id="_XiTYwf4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+R" command="_XhW9n_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiTYxf4sEemvLrd4HyK7TA" keySequence="CTRL+R I" command="_XhXkuP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiTYx_4sEemvLrd4HyK7TA" keySequence="CTRL+R L" command="_XhWWn_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiUm4P4sEemvLrd4HyK7TA" keySequence="CTRL+R C" command="_XhXkv_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXDJv4sEemvLrd4HyK7TA" keySequence="CTRL+R R" command="_XhWWr_4sEemvLrd4HyK7TA"/>
   </bindingTables>
   <bindingTables xmi:id="_W1VIJf31EeeJk-X_yoNq2Q" elementId="org.eclipse.ant.ui.AntEditorScope" bindingContext="_W064hP31EeeJk-X_yoNq2Q">
     <bindings xmi:id="_W1VIJv31EeeJk-X_yoNq2Q" keySequence="F3" command="_W0vSUv31EeeJk-X_yoNq2Q"/>
@@ -863,6 +873,104 @@
   <bindingTables xmi:id="_XdUVMf31EeeJk-X_yoNq2Q" bindingContext="_XdUVMP31EeeJk-X_yoNq2Q"/>
   <bindingTables xmi:id="_XdUVM_31EeeJk-X_yoNq2Q" bindingContext="_XdUVMv31EeeJk-X_yoNq2Q"/>
   <bindingTables xmi:id="_XdUVNf31EeeJk-X_yoNq2Q" bindingContext="_XdUVNP31EeeJk-X_yoNq2Q"/>
+  <bindingTables xmi:id="_XiEIMP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.contexts.StructuredElementViewer" bindingContext="_XhdEMv4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiHLgP4sEemvLrd4HyK7TA" keySequence="F2" command="_W0xunP31EeeJk-X_yoNq2Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiHLgf4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.texEditorScope" bindingContext="_XhdEPf4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiHLgv4sEemvLrd4HyK7TA" keySequence="F3" command="_XhW9sf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiJAsP4sEemvLrd4HyK7TA" keySequence="ESC Q" command="_XhXkpv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiJnwP4sEemvLrd4HyK7TA" keySequence="ALT+X" command="_XhXks_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiKO0v4sEemvLrd4HyK7TA" keySequence="ALT+C" command="_XhWWi_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiK14P4sEemvLrd4HyK7TA" keySequence="CTRL+I" command="_XhWWif4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiNSI_4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+P" command="_XhXktf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiOgQv4sEemvLrd4HyK7TA" keySequence="CTRL+4" command="_XhWWlf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiOgQ_4sEemvLrd4HyK7TA" keySequence="CTRL+5" command="_XhXksf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiQ8g_4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+6" command="_XhXkwv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiRjkP4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+7" command="_XhXksv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiSKoP4sEemvLrd4HyK7TA" keySequence="ESC CTRL+5" command="_XhW9lv4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiIZoP4sEemvLrd4HyK7TA" elementId="de.walware.statet.rtm.contexts.RTaskEditor" bindingContext="_XhdEOP4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiIZof4sEemvLrd4HyK7TA" keySequence="F9" command="_XhWWgv4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiIZov4sEemvLrd4HyK7TA" elementId="de.walware.statet.base.contexts.ConsoleEditor" bindingContext="_XhdENv4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiIZo_4sEemvLrd4HyK7TA" keySequence="CTRL+BREAK" command="_XhWWhv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiK14v4sEemvLrd4HyK7TA" keySequence="CTRL+L" command="_XhWWn_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXDIP4sEemvLrd4HyK7TA" keySequence="ALT+CTRL+END" command="_XhW9uv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXDI_4sEemvLrd4HyK7TA" keySequence="ALT+CTRL+ARROW_UP" command="_XhWWov4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXDJf4sEemvLrd4HyK7TA" keySequence="ALT+CTRL+ARROW_DOWN" command="_XhWWsv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXqMP4sEemvLrd4HyK7TA" keySequence="BREAK" command="_XhWWhv4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiIZpP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.contexts.PageViewerContext" bindingContext="_XhdEMP4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiIZpf4sEemvLrd4HyK7TA" keySequence="ALT+HOME" command="_XhWWsP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiPHUP4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+W" command="_XhW9ov4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiQ8gv4sEemvLrd4HyK7TA" keySequence="CTRL+T" command="_XhWWnf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiRjkf4sEemvLrd4HyK7TA" keySequence="CTRL+W" command="_XhWWpP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiTYyP4sEemvLrd4HyK7TA" keySequence="CTRL+F4" command="_XhWWpP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiV1Af4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+F4" command="_XhW9ov4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiJnwf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.text.contexts.TextEditor" bindingContext="_XhdEM_4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiJnwv4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+/" command="_XhXkxv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiJnw_4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+#" command="_XhXkxv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiKO0_4sEemvLrd4HyK7TA" keySequence="CTRL+I" command="_XhW9nP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiLc8P4sEemvLrd4HyK7TA" keySequence="CTRL+O" command="_XhWWmP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiMrEP4sEemvLrd4HyK7TA" keySequence="CTRL+&lt;" command="_XhW9rf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiMrEf4sEemvLrd4HyK7TA" keySequence="CTRL+=" command="_XhW9rf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiNSIv4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+P" command="_XhW9mv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiPuYP4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+R" command="_XhWWj_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiPuYf4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+C" command="_XhWWpv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiQVcP4sEemvLrd4HyK7TA" keySequence="CTRL+SHIFT+D" command="_XhWWtP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiQ8gf4sEemvLrd4HyK7TA" keySequence="CTRL+T" command="_XhWWiP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiTYxv4sEemvLrd4HyK7TA" keySequence="CTRL+F3" command="_XhW9pP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiVN8v4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+ARROW_UP" command="_XhW9pv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiVN8_4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+ARROW_DOWN" command="_XhW9pf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiVN9P4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+ARROW_LEFT" command="_XhXkuf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiV1AP4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+ARROW_RIGHT" command="_XhW9sP4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiJnxP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.contexts.RDataEditor" bindingContext="_XhdEPP4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiKO0P4sEemvLrd4HyK7TA" keySequence="CTRL++" command="_W00x6f31EeeJk-X_yoNq2Q"/>
+    <bindings xmi:id="_XiKO0f4sEemvLrd4HyK7TA" keySequence="CTRL+-" command="_W0y8qP31EeeJk-X_yoNq2Q"/>
+    <bindings xmi:id="_XiK14_4sEemvLrd4HyK7TA" keySequence="CTRL+L" command="_W02AJf31EeeJk-X_yoNq2Q"/>
+    <bindings xmi:id="_XiMrEv4sEemvLrd4HyK7TA" keySequence="CTRL+=" command="_W00x6f31EeeJk-X_yoNq2Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiNSIP4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.tex.contexts.TexEditor" bindingContext="_XhdEN_4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiNSIf4sEemvLrd4HyK7TA" keySequence="CTRL+T 3" command="_XhWWoP4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiN5MP4sEemvLrd4HyK7TA" elementId="de.walware.statet.redocs.contexts.RweaveEditorScope" bindingContext="_XhdEOf4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiN5Mf4sEemvLrd4HyK7TA" keySequence="CTRL+T 2" command="_XhVvcP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiTYw_4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+W" command="_XhW9lP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXqMf4sEemvLrd4HyK7TA" keySequence="CTRL+R W" command="_XhWWmv4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiN5Mv4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.breadcrumb.contexts.WithBreadcrumbContext" bindingContext="_XhdEO_4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiN5M_4sEemvLrd4HyK7TA" keySequence="ALT+SHIFT+B" command="_W03OYv31EeeJk-X_yoNq2Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiOgQP4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.contexts.DocEditor" bindingContext="_XhdEOv4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiOgQf4sEemvLrd4HyK7TA" keySequence="CTRL+T 4" command="_XhXktP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiOgRP4sEemvLrd4HyK7TA" keySequence="CTRL+T 9" command="_XhWWlv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiQ8gP4sEemvLrd4HyK7TA" keySequence="CTRL+T S" command="_XhWWjv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiWcEP4sEemvLrd4HyK7TA" keySequence="CTRL+T 0" command="_XhWWnP4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_XiSKof4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.contexts.REditor" bindingContext="_XhdENP4sEemvLrd4HyK7TA">
+    <bindings xmi:id="_XiSKov4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+E" command="_XhWWiv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiSKo_4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+D" command="_XhWWkv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiSKpP4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+F" command="_XhXkrv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiSxsP4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+3" command="_XhW9o_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiSxsf4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+4" command="_XhWWrP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiTYwP4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+S" command="_XhWWhP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiTYwv4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+U" command="_XhW9r_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiTYxP4sEemvLrd4HyK7TA" keySequence="CTRL+R CTRL+V" command="_XhW9vP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiUm4f4sEemvLrd4HyK7TA" keySequence="CTRL+R E" command="_XhWWk_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiUm4v4sEemvLrd4HyK7TA" keySequence="CTRL+R D" command="_XhXkof4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiUm4_4sEemvLrd4HyK7TA" keySequence="CTRL+R F" command="_XhWWrf4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiVN8f4sEemvLrd4HyK7TA" keySequence="CTRL+R 1" command="_XhXkr_4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXDIf4sEemvLrd4HyK7TA" keySequence="CTRL+R SHIFT+1" command="_XhWWqv4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXDIv4sEemvLrd4HyK7TA" keySequence="CTRL+R P" command="_XhWWqP4sEemvLrd4HyK7TA"/>
+    <bindings xmi:id="_XiXDJP4sEemvLrd4HyK7TA" keySequence="CTRL+R S" command="_XhXkqP4sEemvLrd4HyK7TA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_YClbUf4sEemvLrd4HyK7TA" bindingContext="_YClbUP4sEemvLrd4HyK7TA"/>
+  <bindingTables xmi:id="_YCmCYf4sEemvLrd4HyK7TA" bindingContext="_YCmCYP4sEemvLrd4HyK7TA"/>
+  <bindingTables xmi:id="_YCmpcP4sEemvLrd4HyK7TA" bindingContext="_YCmCYv4sEemvLrd4HyK7TA"/>
+  <bindingTables xmi:id="_YCmpcv4sEemvLrd4HyK7TA" bindingContext="_YCmpcf4sEemvLrd4HyK7TA"/>
+  <bindingTables xmi:id="_YCnQgP4sEemvLrd4HyK7TA" bindingContext="_YCmpc_4sEemvLrd4HyK7TA"/>
   <rootContext xmi:id="_W0R_RP31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_W0R_Rf31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_W0R_Rv31EeeJk-X_yoNq2Q" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -898,6 +1006,15 @@
           <children xmi:id="_W064mv31EeeJk-X_yoNq2Q" elementId="org.eclipse.mylyn.wikitext.tasks.ui.markupSourceContext" name="Task Markup Editor Source Context"/>
         </children>
         <children xmi:id="_W064nP31EeeJk-X_yoNq2Q" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties Files" description="Editing Properties Files Context"/>
+        <children xmi:id="_XhdEM_4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.text.contexts.TextEditor" name="Editing Source&#x2002;[StatET]" description="Context editing a source with a text-editor of StatET">
+          <children xmi:id="_XhdENP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.contexts.REditor" name="Editing R Script Code" description="Context editing code in an R Script Editor">
+            <children xmi:id="_XhdEOf4sEemvLrd4HyK7TA" elementId="de.walware.statet.redocs.contexts.RweaveEditorScope" name="Editing Documents with R Source (e.g. Sweave)" description="Context editing documents with R source (e.g. Sweave)"/>
+          </children>
+          <children xmi:id="_XhdENf4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.wikitext.contexts.WikitextEditor" name="Editing Wikitext&#x2002;[StatET]"/>
+          <children xmi:id="_XhdENv4sEemvLrd4HyK7TA" elementId="de.walware.statet.base.contexts.ConsoleEditor" name="Editing Console Input&#x2002;[StatET]" description="Context editing the input in a new console of StatET."/>
+          <children xmi:id="_XhdEN_4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.tex.contexts.TexEditor" name="Editing TeX Sources&#x2002;[StatET]"/>
+        </children>
+        <children xmi:id="_XhdEPf4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.texEditorScope" name="Editing Latex Source"/>
       </children>
       <children xmi:id="_W064cv31EeeJk-X_yoNq2Q" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
       <children xmi:id="_W064dP31EeeJk-X_yoNq2Q" elementId="org.eclipse.debug.ui.memoryview" name="In Memory View" description="In memory view"/>
@@ -911,6 +1028,8 @@
       <children xmi:id="_W064lf31EeeJk-X_yoNq2Q" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" name="In Tasks View"/>
       <children xmi:id="_W064mf31EeeJk-X_yoNq2Q" elementId="org.eclipse.buildship.ui.contexts.taskview" name="In Gradle Tasks View" description="This context is activated when the Gradle Tasks view is in focus"/>
       <children xmi:id="_W064nf31EeeJk-X_yoNq2Q" elementId="org.eclipse.egit.ui.RepositoriesView" name="In Git Repositories View"/>
+      <children xmi:id="_XhdEOv4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.contexts.DocEditor" name="Editing Markup Language Documents&#x2002;[StatET]"/>
+      <children xmi:id="_XhdEPP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.contexts.RDataEditor" name="Editing R Data Table" description="Context inspecting and editing R data in an R Data Table"/>
     </children>
     <children xmi:id="_W0R_R_31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs" description="A dialog is open"/>
     <children xmi:id="_W064h_31EeeJk-X_yoNq2Q" elementId="org.eclipse.xtext.ui.embeddedTextEditorScope" name="Embedded Xtext Editor context" description="Embedded Xtext Editor is active"/>
@@ -919,7 +1038,9 @@
   <rootContext xmi:id="_W064dv31EeeJk-X_yoNq2Q" elementId="org.eclipse.jdt.ui.breadcrumbEditorScope" name="Editor Breadcrumb Navigation" description="Editor Breadcrumb Navigation Context"/>
   <rootContext xmi:id="_W064f_31EeeJk-X_yoNq2Q" elementId="org.eclipse.wst.xsd.ui.editor.sourceView" name="XSD Editor Source View" description="XSD Editor Source View"/>
   <rootContext xmi:id="_W064iP31EeeJk-X_yoNq2Q" elementId="org.eclipse.wst.xsd.ui.editor.designView" name="XSD Editor Design View" description="XSD Editor Design View"/>
-  <rootContext xmi:id="_W064if31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.contexts.actionSet" name="Action Set" description="Parent context for action sets"/>
+  <rootContext xmi:id="_W064if31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.contexts.actionSet" name="Action Set" description="Parent context for action sets">
+    <children xmi:id="_XhdEMf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.contexts.EditSource1MenuSet" name="StatET Source Editor Menus"/>
+  </rootContext>
   <rootContext xmi:id="_XdQq0P31EeeJk-X_yoNq2Q" elementId="org.eclipse.ant.ui.actionSet.presentation" name="Auto::org.eclipse.ant.ui.actionSet.presentation"/>
   <rootContext xmi:id="_XdRR4P31EeeJk-X_yoNq2Q" elementId="org.eclipse.debug.ui.breakpointActionSet" name="Auto::org.eclipse.debug.ui.breakpointActionSet"/>
   <rootContext xmi:id="_XdRR4v31EeeJk-X_yoNq2Q" elementId="org.eclipse.debug.ui.debugActionSet" name="Auto::org.eclipse.debug.ui.debugActionSet"/>
@@ -956,6 +1077,15 @@
   <rootContext xmi:id="_XdUVMP31EeeJk-X_yoNq2Q" elementId="org.eclipse.jdt.ui.SearchActionSet" name="Auto::org.eclipse.jdt.ui.SearchActionSet"/>
   <rootContext xmi:id="_XdUVMv31EeeJk-X_yoNq2Q" elementId="org.eclipse.pde.ui.SearchActionSet" name="Auto::org.eclipse.pde.ui.SearchActionSet"/>
   <rootContext xmi:id="_XdUVNP31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.cheatsheets.actionSet" name="Auto::org.eclipse.ui.cheatsheets.actionSet"/>
+  <rootContext xmi:id="_XhdEMP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.contexts.PageViewerContext" name="In Web/Page Browsers" description="In web browsers and other page viewers"/>
+  <rootContext xmi:id="_XhdEMv4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.contexts.StructuredElementViewer" name="Element List&#x2002;[StatET]" description="Context inspecting elements in view like Object Browser of StatET"/>
+  <rootContext xmi:id="_XhdEOP4sEemvLrd4HyK7TA" elementId="de.walware.statet.rtm.contexts.RTaskEditor" name="Editing R Tasks" description="Context Editing R Tasks an R Task editor and views"/>
+  <rootContext xmi:id="_XhdEO_4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.breadcrumb.contexts.WithBreadcrumbContext" name="Breadcrumb Available" description="In views, editors or dialogs with Breadcrumb support"/>
+  <rootContext xmi:id="_YClbUP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.actionSets.RToolbarSet" name="Auto::de.walware.statet.r.actionSets.RToolbarSet"/>
+  <rootContext xmi:id="_YCmCYP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.actionSets.RToolbarExt1Set" name="Auto::de.walware.statet.r.actionSets.RToolbarExt1Set"/>
+  <rootContext xmi:id="_YCmCYv4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.actionSets.RSessionTools" name="Auto::de.walware.statet.r.actionSets.RSessionTools"/>
+  <rootContext xmi:id="_YCmpcf4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.actionSets.RMainMenu" name="Auto::de.walware.statet.r.actionSets.RMainMenu"/>
+  <rootContext xmi:id="_YCmpc_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.CVSActionSet" name="Auto::org.eclipse.team.cvs.ui.CVSActionSet"/>
   <descriptors xmi:id="_W3wKAP31EeeJk-X_yoNq2Q" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>
@@ -1384,6 +1514,90 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.recommenders.snipmatch.rcp"/>
     <tags>View</tags>
     <tags>categoryTag:Code Recommenders</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmDQUP4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.views.MarkupHelp" label="Markup Cheat Sheet" iconURI="platform:/plugin/de.walware.docmlet.base.ui/icons/view_16/markup_help.png" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.walware.docmlet.base.internal.ui.markuphelp.MarkupHelpView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.walware.docmlet.base.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmLzMP4sEemvLrd4HyK7TA" elementId="de.walware.statet.base.views.ContentFilter" label="Filter" iconURI="platform:/plugin/de.walware.statet.base.ui/icons/view_16/view-filter.png" tooltip="" category="StatET" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.walware.statet.base.ui.contentfilter.FilterView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.walware.statet.base.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:StatET</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmNBUP4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.views.HistoryView" label="Cmd History" iconURI="platform:/plugin/de.walware.statet.nico.ui/icons/view_16/history.png" tooltip="" category="StatET" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.walware.statet.nico.ui.views.HistoryView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.walware.statet.nico.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:StatET</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmO2gP4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.views.QueueView" label="Queue" iconURI="platform:/plugin/de.walware.statet.nico.ui/icons/view_16/queue.png" tooltip="" category="StatET" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.walware.statet.nico.ui.views.QueueView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.walware.statet.nico.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:StatET</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmPdkP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.views.RHelp" label="R Help" iconURI="platform:/plugin/de.walware.statet.r.ui/icons/obj_16/rhelp.png" tooltip="" allowMultiple="true" category="StatET" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.walware.statet.r.internal.ui.rhelp.RHelpView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.walware.statet.r.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:StatET</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmRSwP4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.views.ObjectBrowser" label="Object Browser" iconURI="platform:/plugin/de.walware.statet.r.ui/icons/view_16/objectbrowser.png" tooltip="" category="StatET" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.walware.statet.r.internal.objectbrowser.ObjectBrowserView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.walware.statet.r.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:StatET</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmR50P4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.views.RGraphic" label="R Graphics" iconURI="platform:/plugin/de.walware.statet.r.ui/icons/obj_16/r-graphic.png" tooltip="" allowMultiple="true" category="StatET" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.walware.statet.r.internal.ui.graphics.StatetRGraphicView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.walware.statet.r.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:StatET</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmSg4P4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.TableView" label="LaTeX Table View" iconURI="platform:/plugin/net.sourceforge.texlipse/icons/tableview.gif" tooltip="" category="TeXlipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="net.sourceforge.texlipse.tableview.views.TexTableView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="net.sourceforge.texlipse"/>
+    <tags>View</tags>
+    <tags>categoryTag:TeXlipse</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmU9IP4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.FullOutline" label="Full Latex Outline" iconURI="platform:/plugin/net.sourceforge.texlipse/icons/outline_co.gif" tooltip="" category="TeXlipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="net.sourceforge.texlipse.treeview.views.TexOutlineTreeView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="net.sourceforge.texlipse"/>
+    <tags>View</tags>
+    <tags>categoryTag:TeXlipse</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmptQP4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.api.tools.ui.views.apitooling.views.apitoolingview" label="API Tools" iconURI="platform:/plugin/org.eclipse.pde.api.tools.ui/icons/full/obj16/api_tools.gif" tooltip="" category="API Tools" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.pde.api.tools.ui.internal.views.APIToolingView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.pde.api.tools.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:API Tools</tags>
+  </descriptors>
+  <descriptors xmi:id="_Xmq7YP4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.runtime.RegistryBrowser" label="Plug-in Registry" iconURI="platform:/plugin/org.eclipse.pde.runtime/icons/eview16/registry.png" tooltip="" category="Plug-in Development" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.pde.internal.runtime.registry.RegistryBrowser"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.pde.runtime"/>
+    <tags>View</tags>
+    <tags>categoryTag:Plug-in Development</tags>
+  </descriptors>
+  <descriptors xmi:id="_XmxpEP4sEemvLrd4HyK7TA" elementId="org.eclipse.team.ccvs.ui.RepositoriesView" label="CVS Repositories" iconURI="platform:/plugin/org.eclipse.team.cvs.ui/icons/full/eview16/repo_rep.gif" tooltip="" category="CVS" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.team.internal.ccvs.ui.repo.RepositoriesView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.team.cvs.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:CVS</tags>
+  </descriptors>
+  <descriptors xmi:id="_Xmy3MP4sEemvLrd4HyK7TA" elementId="org.eclipse.team.ccvs.ui.EditorsView" label="CVS Editors" iconURI="platform:/plugin/org.eclipse.team.cvs.ui/icons/full/eview16/rep_editors_view.gif" tooltip="" category="CVS" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.team.internal.ccvs.ui.EditorsView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.team.cvs.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:CVS</tags>
+  </descriptors>
+  <descriptors xmi:id="_Xm92UP4sEemvLrd4HyK7TA" elementId="org.jvmmonitor.ui.JvmExplorer" label="JVM Explorer" iconURI="platform:/plugin/org.jvmmonitor.ui/icons/full/eview16/vm_explorer.png" tooltip="" category="Java Monitor" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.jvmmonitor.internal.ui.views.JvmExplorer"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.jvmmonitor.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:Java Monitor</tags>
   </descriptors>
   <menuContributions xmi:id="_W0R_SP31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" positionInParent="popup:toolbar">
     <children xsi:type="menu:HandledMenuItem" xmi:id="_W0R_Sf31EeeJk-X_yoNq2Q" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" label="%command.name.customize" command="_W0R_Sv31EeeJk-X_yoNq2Q"/>
@@ -2476,6 +2690,162 @@
   <commands xmi:id="_XE_70v31EeeJk-X_yoNq2Q" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Display" commandName="Display" description="Display Result of Evaluating Selected Text" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
   <commands xmi:id="_XE_70_31EeeJk-X_yoNq2Q" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Inspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
   <commands xmi:id="_XE_71P31EeeJk-X_yoNq2Q" elementId="AUTOGEN:::org.eclipse.pde.ui.logViewActions/org.eclipse.jdt.debug.ui.LogViewActions.showStackTrace" commandName="Show Stack Trace in Console View" description="Show Stack Trace in Console View" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhVvcP4sEemvLrd4HyK7TA" elementId="de.walware.statet.redocs.commands.ProcessWeaveDefault" commandName="Run Weave" description="Run Sweave in R to generate document (active profile)" category="_XhVIYf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWgP4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.compareWithRemote" commandName="Compare With Latest from Repository" description="Compare with Content on CVS Server" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWgf4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.ignore" commandName="Add to .cvsignore" description="Ignore the Selected Resources when Synchronizing" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWgv4sEemvLrd4HyK7TA" elementId="de.walware.statet.rtm.commands.RunRTask" commandName="Run R Task" category="_XhUhUf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWg_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.replaceWithRevision" commandName="Replace With Revision" description="Replace with Revision on CVS Server" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWhP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitFileToRViaCommand" commandName="Run File in R via Command" description="Submits default command to run (source, load, etc.) file in R" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWhf4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.wikitext.commands.ConvertToWikitextProject" commandName="Convert to Wikitext Project(s)&#x2002;[StatET]" category="_W0uEKf31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWhv4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.CancelCurrent" commandName="Cancel the Current Task" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWh_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.compareWithRevision" commandName="Compare With Revision" description="Compare with Revision on CVS Server" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWiP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.ShowQuickElementHierarchy" commandName="Quick Hierarchy" description="Shows the hierarchy of the selected element in a quick view" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWif4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.texCorrectIndentation" commandName="Correct Indentation" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWiv4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitEntireCommandToR" commandName="Run Entire Command in R" description="Submits directly the entire command of current selection to R" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWi_4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.texCollapse" commandName="Collapse foldings" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWjP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitLastRSnippet" commandName="Run Last R Snippet" description="Submits again the last executed code snippet to the R console" category="_XhVIYv4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWjf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.RefactorInlineLocalVariable" commandName="Inline Local Variable..." description="Replaces a local variable with its definition" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWjv4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.commands.ToggleRunDocProcessingOnSave" commandName="Toggle Run Document Processing on Save" description="Toggles the editor save action to produce the output and open preview (active tool configuration)." category="_XhVIYf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWj_4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.RefactorRenameInWorkspace" commandName="Rename in Workspace..." description="Renames the selected identifier in the workspace" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWkP4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.showHistory" commandName="Show History" description="Show History" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWkf4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.sync" commandName="Synchronize with Repository" description="Synchronize the workspace resources with those in the repository" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWkv4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.launchShortcuts.RScriptDirect.run" commandName="Run R Script in R submitting directly" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWk_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitEntireCommandToR_GotoConsole" commandName="Run Entire Command in R and Go to Console" description="Submits directly the entire command of current selection to R and focus on the R Console" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWlP4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.runtime.spy.commands.spyCommand" commandName="Plug-in Selection Spy" description="Show the Plug-in Spy" category="_XhVIZP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWlf4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.preview" commandName="Preview document" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWlv4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.commands.ProcessDocDefault" commandName="Process Document" description="Runs all steps to produce the output (active tool configuration)" category="_XhVIYf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWl_4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.AdjustOutputWidth" commandName="Adjust Console Output Width" description="Adjusts the width of the console output to the current size of the Console view" category="_XhVIYv4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWmP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.ShowQuickSourceOutline" commandName="Quick Outline" description="Shows the document outline in a quick view" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWmf4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.replaceWithTag" commandName="Replace With Another Branch or Version" description="Replace with Branch or Version on the CVS Server" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWmv4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.launchShortcuts.RChunkDirectAndConsole.run" commandName="Run Current Chunk in R and go to Console" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWm_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.InspectAttributes" commandName="Inspect Attributes" description="Inspects the attributes of the selected R element" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWnP4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.commands.ProcessAndPreviewDefault" commandName="Process Document and Preview Output" description="Runs all steps to produce the output and open preview (active tool configuration)" category="_XhVIYf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWnf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.NewPage" commandName="New Page" description="Opens a new page/tab in the current view" category="_W0tdEf31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWnv4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.launchShortcuts.RScriptViaSource.run" commandName="Run R Script via 'source' in R" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWn_4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.ClearOutput" commandName="Clear Console Output" description="Clears the console output" category="_XhVIYv4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWoP4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.tex.commands.ProcessTexDefault" commandName="Build TeX" description="Build TeX document and generate output (active profile)" category="_XhVIYf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWof4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.update" commandName="Update" description="Update resources with new content from the repository" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWov4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.SearchHistoryOlder" commandName="Search History for Next Older Item" description="Searches through the history for closest older item starting with the text before the cursor." category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWo_4sEemvLrd4HyK7TA" elementId="de.walware.statet.base.r.RefactorExtractFunction" commandName="Extract R Function..." description="Extracts a the selected range into a new R function and uses the new function" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWpP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.ClosePage" commandName="Close Page" description="Closes the active page/tab in the current view" category="_W0tdEf31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWpf4sEemvLrd4HyK7TA" elementId="de.walware.statet.base.r.RefactorFunctionToS4Method" commandName="Convert to S4 method..." description="Turns a the selected function into a formal S4 method" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWpv4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.ToggleComment" commandName="Toggle Comment" description="Toggles comment the selected lines" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWp_4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.GenerateElementComment" commandName="Generate Element Comment" description="Generates a comment for the selected element" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWqP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.ui.commands.RunPrintInR" commandName="Print to R Console" description="Prints the value of variable currently selected to R console" category="_XhVIZf4sEemvLrd4HyK7TA">
+    <parameters xmi:id="_XhWWqf4sEemvLrd4HyK7TA" elementId="var" name="Variable to Print"/>
+  </commands>
+  <commands xmi:id="_XhWWqv4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.ui.commands.RunHelpSearchInR" commandName="Run 'help.search(...)' in R" description="Runs 'help.search(...)' in R for the current selection" category="_XhVIZf4sEemvLrd4HyK7TA">
+    <parameters xmi:id="_XhWWq_4sEemvLrd4HyK7TA" elementId="text" name="Text to Search For"/>
+  </commands>
+  <commands xmi:id="_XhWWrP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitSelectionToR_GotoNextLine" commandName="Run Selection in R and Go to Next Line" description="Submits directly the code of the current selection/current line to R and goes to next line" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWrf4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitFunctionDefToR_GotoConsole" commandName="Run Function Definition in R and Go to Console" description="Submits directly the entire function definition of the current selection to R and focus on the R Console" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWrv4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.updateSwitch" commandName="Switch to Another Branch or Version" description="Switch to Another Branch or Version" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWr_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitSelectionToR_GotoConsole" commandName="Run Selection in R and Go to Console" description="Submits directly the code of the current selection to R (in text editors: selection/current line) and focus on the R Console" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWsP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.GoToHome" commandName="Home Page" description="Go to the home page" category="_W0uEIP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWsf4sEemvLrd4HyK7TA" elementId="de.walware.eutils.autonature.commands.DetectAndConfigureProject" commandName="Detect and Configure Project..." category="_W0uEKf31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhWWsv4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.SearchHistoryNewer" commandName="Search History for Next Newer Item" description="Searches through the history for closest newer item starting with the text before the cursor." category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWs_4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.texWordWrap" commandName="Wrap text" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhWWtP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.StripComments" commandName="Strip Comments" description="Strip comments from the selected lines" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9kP4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.tex.commands.ConvertToTexProject" commandName="Convert to TeX Project(s)&#x2002;[StatET]" category="_W0uEKf31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9kf4sEemvLrd4HyK7TA" elementId="org.eclipse.tools.layout.spy.commands.layoutSpyCommand" commandName="Layout Spy" description="Show the Layout Spy" category="_XhVIZP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9kv4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.SearchWriteElementAccess" commandName="Search Write Access" description="Searches for write element access to the selected element" category="_W0uEKv31EeeJk-X_yoNq2Q">
+    <parameters xmi:id="_XhW9k_4sEemvLrd4HyK7TA" elementId="scope" name="Scope" optional="false"/>
+  </commands>
+  <commands xmi:id="_XhW9lP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.launchShortcuts.RChunkDirect.run" commandName="Run Current Chunk in R" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9lf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.ToggleLiveReportProblems" commandName="Toggle Report Problems as you type" description="Toggles the activation of reporting problems as you type in editors of current type" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9lv4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.texUncomment" commandName="Uncomment" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9l_4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.api.tools.ui.remove.filters" commandName="Remove &amp;API Problem Filters..." description="Remove API problem filters for this project" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9mP4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.PauseEngine" commandName="Pause" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9mf4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.updateAll" commandName="Update All Incoming Changes" description="Update all incoming changes with new content from the repository" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9mv4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.text.commands.GotoMatchingBracket" commandName="Go to Matching Bracket" description="Moves the cursor to the matching bracket" category="_W0uEIP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9m_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.addLocation" commandName="Add Repository Location" description="Add a new CVS repository location" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9nP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.CorrectIndent" commandName="Correct Indentation" description="Corrects the indentation of current line/selected lines" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9nf4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.setAsMainFile" commandName="Set As Main File" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9nv4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.partialBuild" commandName="Partial Build" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9n_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitSelectionToR" commandName="Run Selection in R" description="Submits directly the code of the current selection to R (in text editors: selection/current line)" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9oP4sEemvLrd4HyK7TA" elementId="de.walware.statet.rtm.ftable.commands.NewFTable" commandName="New Contingency Table ('ftable')" description="Creates a new Contingency Table ('ftable')" category="_XhUhUf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9of4sEemvLrd4HyK7TA" elementId="de.walware.statet.rtm.ggplot.commands.NewGGPlot" commandName="New Graph ('ggplot2')" description="Creates a new Graph ('ggplot2')" category="_XhUhUf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9ov4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.CloseAllPages" commandName="Close All Pages" description="Closes all pages/tabs in the current view" category="_W0tdEf31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9o_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitEntireCommandToR_GotoNextCommand" commandName="Run Entire Command in R and Go to Next Command" description="Submits directly the entire command of current selection to R and goes to next command" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9pP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.ShowQuickElementOutline" commandName="Quick Structure" description="Shows the outline of the selected element in a quick view" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9pf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.SelectLast" commandName="Restore Last Selection" description="Restore last selection" category="_W0tdEv31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9pv4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.SelectExpandEnclosing" commandName="Select Enclosing Element" description="Expand selection to include enclosing element" category="_W0tdEv31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9p_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.branch" commandName="Branch" description="Branch" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9qP4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.GenerateDiff" commandName="Create Patch" description="Compare your workspace contents with the server and generate a diff file that can be used as a patch file." category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9qf4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.DisconnectEngine" commandName="Disconnect" description="Disconnects StatET console (client) from external engine (server)" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9qv4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.ReconnectEngine" commandName="Reconnect" description="Reconnects StatET console (client) to external engine (server)" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9q_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.cvsPerspective" commandName="CVS Repository Exploring" description="Open the CVS Repository Exploring Perspective" category="_W0uEMP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9rP4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.api.tools.ui.convert.javadocs" commandName="Convert API Tools &amp;Javadoc Tags..." description="Starts a wizard that will allow you to convert existing Javadoc tags to annotations" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9rf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.InsertAssignment" commandName="Insert Assignment Operator" description="Inserts an assignment operator at the cursor position" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9rv4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.CorrectLineWrap" commandName="Correct Line Wrap" description="Corrects the line wrap of current line/selected lines" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9r_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitUptoSelectionToR" commandName="Run Up to Selection in R" description="Submits directly the code up to the current selection/current line to R" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9sP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.SelectExpandNext" commandName="Select Next Element" description="Expand selection to include next sibling" category="_W0tdEv31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9sf4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.openDeclaration" commandName="Open Declaration" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9sv4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.saveAsTemplate" commandName="Save As Template" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9s_4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.runtime.spy.commands.menuSpyCommand" commandName="Plug-in Menu Spy" description="Show the Plug-in Spy" category="_XhVIZP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9tP4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.CancelCurrentAndPause" commandName="Cancel and Pause" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9tf4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.commit" commandName="Commit" description="Commit resources to the repository" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9tv4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.setKeywordSubstitution" commandName="Change ASCII/Binary Property" description="Change whether the selected resources should be treated as ASCII or binary on the CVS Server" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9t_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.ResetREnvIndex" commandName="Reset R environment index" description="Resets and newly creates the index of the R environment of the current console" category="_XhVIYv4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9uP4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.CancelAll" commandName="Cancel All Tasks" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9uf4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.checkout" commandName="Checkout from CVS" description="Checkout from CVS" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9uv4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.GotoHistoryNewest" commandName="Go to the Newest History Item " description="Goes to the newest item in the history." category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9u_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.LoadRImage" commandName="Load R Workspace/Image..." description="Loads an R workspace / saved image from a file" category="_XhVIYv4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhW9vP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitSelectionToR_PasteOutput" commandName="Run Selection in R and Paste Output" description="Submits directly the code of the current selection/current line to R and pastes its output as comment" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhW9vf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ide.commands.OpenSearchDialog" commandName="Open Search Dialog" description="Opens the Search Dialog" category="_W0uEKv31EeeJk-X_yoNq2Q">
+    <parameters xmi:id="_XhXkoP4sEemvLrd4HyK7TA" elementId="pageId" name="Page"/>
+  </commands>
+  <commands xmi:id="_XhXkof4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.launchShortcuts.RScriptDirectAndConsole.run" commandName="Run R Script in R submitting directly and Go to Console" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkov4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.ExpandElements" commandName="Expand Elements" description="Expands all elements of the a type" category="_W0uEOP31EeeJk-X_yoNq2Q">
+    <parameters xmi:id="_XhXko_4sEemvLrd4HyK7TA" elementId="type" name="Type"/>
+  </commands>
+  <commands xmi:id="_XhXkpP4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.api.tools.ui.setup.projects" commandName="API &amp;Tools Setup..." description="Configure projects for API usage and compatibility checks" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkpf4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.commands.ConfigureMarkup" commandName="Configure Markup Language" description="Configures the markup language" category="_XhVIYf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkpv4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.texHardLineWrap" commandName="Correct Line Wrap" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkp_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.tag" commandName="Tag as Version" description="Tag the resources with a CVS version tag" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkqP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitFileToRViaCommand_GotoConsole" commandName="Run File in R via Command and Go to Console" description="Submits default command to run (source, load, etc.) file in R and focus on the R Console" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkqf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.RefactorRenameInSelectedRegion" commandName="Rename in Selected Region..." description="Renames identifier in the selected region" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkqv4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.wordCount" commandName="Word Count" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkq_4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.SpecificContentAssist" commandName="Content Assist" description="A parameterizable command that invokes content assist with a single completion proposal category" category="_XhVIZf4sEemvLrd4HyK7TA">
+    <parameters xmi:id="_XhXkrP4sEemvLrd4HyK7TA" elementId="categoryId" name="proposal kind" optional="false"/>
+  </commands>
+  <commands xmi:id="_XhXkrf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.RefactorExtractLocalVariable" commandName="Extract Local Variable..." description="Extracts an expression into a new local variable and uses the new local variable" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkrv4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitFunctionDefToR" commandName="Run Function Definition in R" description="Submits directly the entire function definition of the current selection to R" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkr_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.ui.commands.RunHelpInR" commandName="Run 'help(...)' in R" description="Runs 'help(...)' in R for the current selection" category="_XhVIZf4sEemvLrd4HyK7TA">
+    <parameters xmi:id="_XhXksP4sEemvLrd4HyK7TA" elementId="topic" name="Help Topic"/>
+  </commands>
+  <commands xmi:id="_XhXksf4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.texComment" commandName="Comment" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXksv4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.spellUncheck" commandName="Clear Spelling Errors" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXks_4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.texUncollapse" commandName="Uncollapse foldings" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXktP4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.commands.PreviewDocDefault" commandName="Preview Output" description="Opens preview for the produced output (active tool configuration)" category="_XhVIYf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXktf4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.GotoMatchingBracket" commandName="Go to matching bracket" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXktv4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.add" commandName="Add to Version Control" description="Add the Selected Resources to Version Control" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkt_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.replace" commandName="Replace With Latest from Repository" description="Replace with last committed content from CVS Server" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkuP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.UpdateREnvIndex" commandName="Update R environment index" description="Updates the index of the R environment of the current console" category="_XhVIYv4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkuf4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.SelectExpandPrevious" commandName="Select Previous Element" description="Expand selection to include previous sibling" category="_W0tdEv31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkuv4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.SubmitRSnippet" commandName="Run R Snippet" description="Submits a predefined code snippet to the R console" category="_XhVIYv4sEemvLrd4HyK7TA">
+    <parameters xmi:id="_XhXku_4sEemvLrd4HyK7TA" elementId="snippet" name="Snippet" optional="false"/>
+  </commands>
+  <commands xmi:id="_XhXkvP4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.AddExceptionBreakpoint" commandName="Add R Error Breakpoint" description="Adds the R error/stop breakpoint" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkvf4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.replaceWithBase" commandName="Revert to Base" description="Revert to Base revisions" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkvv4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.api.tools.ui.compare.to.baseline" commandName="API Baseline..." description="Allows to compare the selected resource with the current baseline" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkv_4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.GotoRConsole" commandName="Go to R Console" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkwP4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.SearchAllElementAccess" commandName="Search All Occurrences" description="Searches for all element access to the selected element" category="_W0uEKv31EeeJk-X_yoNq2Q">
+    <parameters xmi:id="_XhXkwf4sEemvLrd4HyK7TA" elementId="scope" name="Scope" optional="false"/>
+  </commands>
+  <commands xmi:id="_XhXkwv4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.commands.spellCheck" commandName="Check Spelling" category="_XhVIYP4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkw_4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.base.commands.CopyElementName" commandName="Copy Element Name" description="Copy the name(s) of selected element(s)" category="_W0tdEv31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_XhXkxP4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.showAnnotation" commandName="Show Revision Information" description="Show Revision Information" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkxf4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.compareWithTag" commandName="Compare With Another Branch or Version" description="Compare with a Branch or a Version on the CVS Server" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkxv4sEemvLrd4HyK7TA" elementId="de.walware.ecommons.ltk.commands.AddDocComment" commandName="Add Docu Comment" description="Comments the selection lines in documentation style" category="_XhVIZf4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkx_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.commitAll" commandName="Commit All Outgoing Changes" description="Commit all outgoing changes to the repository" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkyP4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.merge" commandName="Merge" description="Merge" category="_XhVIY_4sEemvLrd4HyK7TA"/>
+  <commands xmi:id="_XhXkyf4sEemvLrd4HyK7TA" elementId="de.walware.statet.r.commands.ToggleRunEcho" commandName="Toggle Echo" description="Toggles if echo is enabled when submitting code to R (if supported by the command)" category="_W0uEK_31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_YBzYMP4sEemvLrd4HyK7TA" elementId="AUTOGEN:::de.walware.statet.r.debug.REditorRulerDebugActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="ToggleBreakpoint" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_YBz_QP4sEemvLrd4HyK7TA" elementId="AUTOGEN:::de.walware.statet.redocs.legacy.LtxRweaveEditorRulerDebugActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="ToggleBreakpoint" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_YB0mUP4sEemvLrd4HyK7TA" elementId="AUTOGEN:::de.walware.statet.redocs.legacy.WikidocRweaveEditorRulerDebugActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="ToggleBreakpoint" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_YB10cP4sEemvLrd4HyK7TA" elementId="AUTOGEN:::net.sourceforge.texlipse.editor.editorContribution/net.sourceforge.texlipse.action1" commandName="Run BibTeX on next build" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
+  <commands xmi:id="_YB2bgP4sEemvLrd4HyK7TA" elementId="AUTOGEN:::net.sourceforge.texlipse.editor.editorContribution/net.sourceforge.texlipse.actions.ForceRebuild" commandName="Force build" category="_W0uEOP31EeeJk-X_yoNq2Q"/>
   <addons xmi:id="_W0R_S_31EeeJk-X_yoNq2Q" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_W0R_TP31EeeJk-X_yoNq2Q" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_W0R_Tf31EeeJk-X_yoNq2Q" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2527,4 +2897,11 @@
   <categories xmi:id="_W0uEN_31EeeJk-X_yoNq2Q" elementId="org.eclipse.xtext.ui.category.refactoring" name="Refactoring" description="Refactoring Commands"/>
   <categories xmi:id="_W0uEOP31EeeJk-X_yoNq2Q" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
   <categories xmi:id="_DbsAQOIjEeWDJvu3hU0AuQ" elementId="org.eclipse.recommenders.news.rcp.category.news" contributorURI="platform:/plugin/org.eclipse.recommenders.news.rcp" name="%category.name.news" description="%category.description.news"/>
+  <categories xmi:id="_XhUhUf4sEemvLrd4HyK7TA" elementId="de.walware.statet.rtm.commands.RTasksCategory" name="R Tasks"/>
+  <categories xmi:id="_XhVIYP4sEemvLrd4HyK7TA" elementId="net.sourceforge.texlipse.latexEditingCategory" name="Texlipse" description="Latex Editing"/>
+  <categories xmi:id="_XhVIYf4sEemvLrd4HyK7TA" elementId="de.walware.docmlet.base.commands.EditDocsCategory" name="Edit Document Sources" description="Actions to Edit Document Sources"/>
+  <categories xmi:id="_XhVIYv4sEemvLrd4HyK7TA" elementId="de.walware.statet.nico.commands.ConsoleCategory" name="StatET Console"/>
+  <categories xmi:id="_XhVIY_4sEemvLrd4HyK7TA" elementId="org.eclipse.team.cvs.ui.actionSet" name="CVS" description="Actions that apply when working with CVS repositories"/>
+  <categories xmi:id="_XhVIZP4sEemvLrd4HyK7TA" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
+  <categories xmi:id="_XhVIZf4sEemvLrd4HyK7TA" elementId="de.walware.statet.base.commandCategorys.StatetSource" name="StatET Code" description="StatET Source Actions"/>
 </application:Application>
